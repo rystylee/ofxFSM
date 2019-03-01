@@ -76,4 +76,4 @@ namespace ofxFSM
         int mIndex;
     };
 
-} // ofxFSM
+} // namespace ofxFSM

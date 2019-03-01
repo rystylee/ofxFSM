@@ -17,4 +17,4 @@ namespace ofxFSM
         virtual void keyPressed(const int key) = 0;
     };
 
-} // ofxFSM
+} // namespace ofxFSM
