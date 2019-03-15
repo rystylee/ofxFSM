@@ -47,7 +47,7 @@ namespace ofxFSM
 
         void changeState(const int index)
         {
-            if (mIndex > mStates.size())
+            if (index > mStates.size() - 1)
                 return;
 
             stop();
