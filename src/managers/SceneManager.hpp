@@ -3,7 +3,7 @@
 #include <vector>
 #include <memory>
 
-#include "BaseScene.hpp"
+#include "../bases/BaseScene.hpp"
 
 namespace ofxFSM
 {

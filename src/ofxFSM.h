@@ -1,3 +1,5 @@
 #pragma once
 
-#include "SceneManager.hpp"
+#include "bases/BaseObject.hpp"
+
+#include "managers/SceneManager.hpp"
