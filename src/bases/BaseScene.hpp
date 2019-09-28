@@ -13,7 +13,7 @@ namespace ofxFSM
         virtual void update() = 0;
         virtual void updateContexts() = 0;
         virtual void render() = 0;
-        virtual void renderGui(const float x, const float y) = 0;
+        virtual void renderGui() = 0;
         virtual void keyPressed(const int key) = 0;
     };
 

@@ -35,9 +35,9 @@ namespace ofxFSM
             mScenes[mIndex]->render();
         }
         
-        void renderGui(const float x, const float y)
+        void renderGui()
         {
-            mScenes[mIndex]->renderGui(x, y);
+            mScenes[mIndex]->renderGui();
         }
         
         void keyPressed(int key)
@@ -60,6 +60,8 @@ namespace ofxFSM
         {
             mScenes.emplace_back(std::make_unique<T>());
         }
+
+        const int getSceneIndex() const { return mIndex; }
     
     private:
         void start()
